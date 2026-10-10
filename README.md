@@ -26,8 +26,8 @@ fnOS(飞牛OS)人情账本应用:记录婚礼、满月、生日、乔迁、升�
 
 1. 在 [Releases](https://github.com/pdf-covert/gift-ledger/releases) 页找到最新版本
 2. 根据飞牛OS 设备架构下载安装包:
-   - `gift-ledger.fpk` —— x86_64(amd64)
-   - `gift-ledger-arm64.fpk` —— ARM64
+   - `gift-ledger-x86-<版本>.fpk` —— x86_64(amd64)
+   - `gift-ledger-arm-<版本>.fpk` —— ARM64
 3. 打开飞牛OS **应用中心 → 手动安装**,选择下载的 `.fpk` 文件
 4. 安装完成后从桌面进入「人情录」
 
@@ -52,10 +52,10 @@ fnOS(飞牛OS)人情账本应用:记录婚礼、满月、生日、乔迁、升�
 ### 发版流程(维护者)
 
 ```bash
-# 1. 在源码仓库打双架构安装包(产物 gift-ledger.fpk / gift-ledger-arm64.fpk)
+# 1. 在源码仓库打双架构安装包(产物 gift-ledger-x86-<版本>.fpk / gift-ledger-arm-<版本>.fpk)
 cd fnapp && ./scripts/package.sh
 
 # 2. 草拟发布说明后创建 Release 并上传安装包
-gh release create v1.0.0 ../fnapp/gift-ledger.fpk ../fnapp/gift-ledger-arm64.fpk \
+gh release create v1.0.0 ../fnapp/gift-ledger-x86-1.0.0.fpk ../fnapp/gift-ledger-arm-1.0.0.fpk \
   --title "人情录 v1.0.0" --notes "首发版本。"
 ```
