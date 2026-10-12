@@ -14,14 +14,6 @@ fnOS(飞牛OS)人情账本应用:记录婚礼、满月、生日、乔迁、升�
 - **数据安心**:账本保存在自家设备上,不上传云端
 - **备份还原**:账本一键导出为加密备份文件,导入即可恢复,换设备迁移方便
 
-## 界面预览
-
-<!-- 截图放置于 screenshots/ 目录,发版时更新 -->
-
-| 总览 | 统计 |
-| :---: | :---: |
-| ![总览](screenshots/overview.png) | ![统计](screenshots/stats.png) |
-
 ## 安装
 
 1. 在 [Releases](https://github.com/pdf-covert/gift-ledger/releases) 页找到最新版本
