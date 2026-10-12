@@ -46,16 +46,3 @@ fnOS(飞牛OS)人情账本应用:记录婚礼、满月、生日、乔迁、升�
 ## 版本
 
 见 [Releases](https://github.com/pdf-covert/gift-ledger/releases)。当前版本:见最新 Release。
-
----
-
-### 发版流程(维护者)
-
-```bash
-# 1. 在源码仓库打双架构安装包(产物 gift-ledger-x86-<版本>.fpk / gift-ledger-arm-<版本>.fpk)
-cd fnapp && ./scripts/package.sh
-
-# 2. 草拟发布说明后创建 Release 并上传安装包
-gh release create v1.0.0 ../fnapp/gift-ledger-x86-1.0.0.fpk ../fnapp/gift-ledger-arm-1.0.0.fpk \
-  --title "人情录 v1.0.0" --notes "首发版本。"
-```
