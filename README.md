@@ -61,6 +61,18 @@ fnOS(飞牛OS)人情账本应用:记录婚礼、满月、生日、乔迁、升�
 
 所有记账功能目前均**免费使用**;新用户限免 30 天,到期后功能不受影响,仅显示提示。如愿支持应用持续更新,可在「设置 → 购买」购买永久版(¥19.9 一次性买断):微信扫码支付,支付成功自动开通。永久版仅限**当前设备**有效。
 
+## 赞赏
+
+人情录的记账功能永久免费。如果它帮你把人情往来理得清清楚楚,欢迎请作者喝杯咖啡 ☕(金额随意,心意最重要;赞赏不影响任何功能):
+
+<div align="center">
+
+| 微信支付 | 支付宝 |
+|:---:|:---:|
+| <img src="images/donate-wechat.png" width="260" alt="微信支付收款码" /> | <img src="images/donate-alipay.jpg" width="260" alt="支付宝收款码" /> |
+
+</div>
+
 ## 版本
 
 见 [Releases](https://github.com/pdf-covert/gift-ledger/releases)。当前版本:见最新 Release。
